@@ -8,7 +8,7 @@ import useCart from "@/hooks/use-cart";
 import Summary from "./components/Summary";
 import CartItem from "./components/CartItem";
 
-export const revalidate = 0;
+// export const revalidate = 0;
 
 const CartPage = () => {
   const [isMounted, setIsMounted] = useState(false);
